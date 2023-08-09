@@ -1,0 +1,85 @@
+.header-container {
+  padding: 20px 50px;
+  border-bottom: 6px solid #00000030;
+}
+
+.doctors-img {
+  width: 70%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 2px #00000030;
+}
+
+@media (min-width: 768px) {
+  .doctors-img {
+    width: 380px;
+  }
+  .form-container {
+    width: 360px;
+  }
+}
+
+.input {
+  margin: 10px 0px;
+  padding: 5px 10px;
+  width: 100%;
+  border-radius: 6px;
+  border: 2px solid #6bb4e8;
+  outline: none;
+}
+
+.form-button {
+  width: 100% !important;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 6px;
+  border: none;
+  margin: 10px 0px;
+  margin-top: 20px;
+  background-color: #1896ef;
+}
+
+.already-member {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.already-member-p {
+  margin: 0px;
+  margin-right: 5px;
+  color: #00000080;
+  font-weight: 500;
+}
+
+.sign-up-btn {
+  background-color: transparent;
+  border: none;
+  color: #0095ff;
+  font-weight: 500;
+}
+
+.error-msg {
+  color: #fc0909d2;
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.heading {
+  font-weight: bold;
+  color: #0095ff;
+  align-self: center;
+}

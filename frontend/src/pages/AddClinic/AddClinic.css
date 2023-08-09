@@ -1,0 +1,16 @@
+.addClinicbody {
+  padding: 20px 40px;
+}
+
+.addClinicForm {
+  background-color: #00000009;
+  padding: 25px;
+  border-radius: 10px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 10px solid #00000015;
+}

@@ -1,0 +1,23 @@
+.clinics-body {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-grid-btns {
+  border: none;
+  background-color: transparent;
+}
+
+p {
+  font-weight: 500;
+  color: #00000095;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 10px solid #00000015;
+}
